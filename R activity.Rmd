@@ -1,0 +1,26 @@
+---
+title: "R activity"
+author: "B Edmonds"
+date: "2025-10-15"
+output: pdf_document
+---
+
+## R Markdown
+# What is y=x+c
+c < -1 
+x <- 1
+when 'x=1' 'y=2'
+
+# Food list
+* cheese
+* bread
+* apples
+
+# Things to do
+1. wake up
+2. brush teeth
+3. put on clothes
+
+
+
+
