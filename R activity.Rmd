@@ -7,25 +7,25 @@ output: pdf_document
 
 ## R Markdown
 # What is y=x+c
-```{r}
+```{r code chunk 1}
 c <- 1 
 x <- 1
 y<- c+x
 print(y)
 ```
 #Calculation
-```{r}
+```{r code chunk 2}
 a<- 4
 sqrt(a)
 ```
 
 
-# Food list
+# unordered list
 * cheese
 * bread
 * apples
 
-# Things to do
+# Ordered list
 1. wake up
 2. brush teeth
 3. put on clothes
