@@ -7,9 +7,18 @@ output: pdf_document
 
 ## R Markdown
 # What is y=x+c
-c < -1 
+```{r}
+c <- 1 
 x <- 1
-when 'x=1' 'y=2'
+y<- c+x
+print(y)
+```
+#Calculation
+```{r}
+a<- 4
+sqrt(a)
+```
+
 
 # Food list
 * cheese
