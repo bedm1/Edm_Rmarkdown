@@ -1,0 +1,22 @@
+---
+title: "Quiz4"
+author: "B Edmonds"
+date: "2025-10-19"
+output: pdf_document
+---
+
+```{r}
+# Load necessary library
+library(ggplot2)
+
+# Read in the dataset
+patients <- read.csv("Patients.csv")
+
+# Create a histogram of the Age variable
+ggplot(patients, aes(x = Age)) +
+  geom_histogram(binwidth = 5, fill = "steelblue", color = "white") +
+  labs(title = "Distribution of Patient Ages", x = "Age", y = "Count")
+```
+
+
+
