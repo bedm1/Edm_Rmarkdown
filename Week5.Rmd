@@ -1,0 +1,25 @@
+---
+title: "Week5 Activity"
+author: "B Edmonds"
+date: "2025-10-20"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown Week5 Activity
+## Reading in Data 
+### .csv file
+
+```{r}
+library(readr)
+fev <- read_csv("Week 5/fev.csv")
+View(fev)
+```
+
+
+
+
+
